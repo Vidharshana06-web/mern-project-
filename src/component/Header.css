@@ -1,0 +1,26 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card-title {
+      font-weight: 600;
+    }
+
+    .btn-outline-dark:hover {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .col-md-4 img {
+      width: auto;
+      height: 400px;
+      object-fit: cover;
+    }
+  
