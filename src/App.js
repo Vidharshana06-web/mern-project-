@@ -1,16 +1,16 @@
 import './App.css';
-import Navbar from './component/Navbar';
+import Navbar from './component/Navbar.js';
 import Home from './pages/Home.js';
-import Products from './pages/Products';
-import ProDetails from './pages/ProDetails';
-import Cart from './pages/Cart';
-import Contact from './pages/Contact';
-import Footer from './component/Footer';
+import Products from './pages/Products.js';
+import ProDetails from './pages/ProDetails.js';
+import Cart from './pages/Cart.js';
+import Contact from './pages/Contact.js';
+import Footer from './component/Footer.js';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Register from './pages/Register';
-import Login from './pages/Login';
-import ForgotPassword from './pages/ForgotPassword';
-import Profile from './pages/Profile';
+import Register from './pages/Register.js';
+import Login from './pages/Login.js';
+import ForgotPassword from './pages/ForgotPassword.js';
+import Profile from './pages/Profile.js';
 
 function App() {
   return (
